@@ -79,6 +79,8 @@ public class AveTest {
                            "*  2.- Asignar Asiento              *\n"+
                            "*  3.- Liberar Asiento              *\n"+
                            "*  4.- Mostrar Billetes             *\n"+
+                //nueva opcion de menu
+                           "*  5.- Mostrar Billetes Cancelados  *\n"+
                            "*  0.- Salir                        *\n"+
                            "*************************************\n"+
                            "Elige la opcion a realizar: ");

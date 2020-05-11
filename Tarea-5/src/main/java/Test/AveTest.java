@@ -24,7 +24,8 @@ public class AveTest {
         System.out.println("Definición del Tren: ");
         LocalDateTime fechaSalida = LocalDateTime.of(2020, 2, 1, 7, 0);  
         LocalDateTime fechaLlegada = LocalDateTime.of(2020, 2, 1, 9, 30);
-        byte nCoches=6;
+        // IVM: Cambiamos el numero de coches por 8
+        byte nCoches=8;
         Ave a=new Ave(1,"Sevilla","Madrid",fechaSalida,fechaLlegada,nCoches);
         do{
             try{

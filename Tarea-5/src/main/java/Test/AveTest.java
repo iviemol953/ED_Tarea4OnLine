@@ -22,8 +22,9 @@ public class AveTest {
         
         Scanner teclado=new Scanner(System.in);
         System.out.println("Definición del Tren: ");
-        LocalDateTime fechaSalida = LocalDateTime.of(2020, 2, 1, 7, 0);  
-        LocalDateTime fechaLlegada = LocalDateTime.of(2020, 2, 1, 9, 30);
+        LocalDateTime fechaSalida = LocalDateTime.of(2020, 2, 1, 7, 0); 
+        // IVM: Cambiamos la hora de llegada a 01/07
+        LocalDateTime fechaLlegada = LocalDateTime.of(2020, 7, 1, 9, 30);
         // IVM: Cambiamos el numero de coches por 8
         byte nCoches=8;
         Ave a=new Ave(1,"Sevilla","Madrid",fechaSalida,fechaLlegada,nCoches);

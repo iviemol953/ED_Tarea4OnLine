@@ -87,7 +87,7 @@ public class AveTest {
      * Muestra la ocupación del tren. asientos libres en color verde |L| y ocupados
      * en rojo |O|
      * A continuación muestra el total de asientos ocupados. Y por ultimo la información de cada unno de los coches
-     * @param tren Ave
+     * @paramsd tren Ave
      */
     static void visualizarOcupacion(Ave tren){
         String resultado;
